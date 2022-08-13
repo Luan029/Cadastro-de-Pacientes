@@ -4,26 +4,26 @@
     height: 250px;
     overflow-x: auto;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 h2{
-    background-color: blueviolet;
+    background-color: blue;
     color: white;
     width: 100%;
-    
+    text-indent: 15px;
 }
 .noticias div{
-    background-color: gray;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.363);
     height: 230px;
-    width: 130px;
+    width: 290px;
     padding: 3px;
 }
 .noticias img{
-    height: 100px;
-    width: 120px;
+    height: 150px;
+    width: 250px;
     margin-top: 5px;
-    margin-left: 5px;
-    
+    margin-left: 15px;
 }
 .noticias h4{
     font-size: 15px;
@@ -31,5 +31,9 @@ h2{
     margin-left: 5px;
     justify-content: left;
     
+}
+.noticias a{
+    color: black;
+    text-decoration: none;
 }
 
