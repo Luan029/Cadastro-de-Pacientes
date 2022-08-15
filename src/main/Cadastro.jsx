@@ -3,11 +3,13 @@ import { useState } from "react"
 import "./Cadastro.css"
 
 
-const Cadastro =() =>{
+const Cadastro =props =>{
    function cadastrouUsuario(e){
         e.preventDefault()
         console.log('Usuario cadastrado!')
         console.log(`O nome é ${name}, o numero é ${numero}, os sitomas são ${sintomas} e a hora da consulta ${hora}`)
+        
+
    }
    const [name, setName] = useState("")
    const [numero, setNumero] = useState("")

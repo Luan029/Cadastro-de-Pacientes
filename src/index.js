@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Cabecalho from './header/Cabecalho';
 import './index.css';
 import Cadastro from './main/Cadastro';
+import Resultado from './main/Resultado';
 import Noticias from './main/Noticias';
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +13,7 @@ root.render(
     <Cabecalho/>
     <Noticias/>
     <Cadastro/>
+    <Resultado/>
   </React.Fragment>
 );
 
