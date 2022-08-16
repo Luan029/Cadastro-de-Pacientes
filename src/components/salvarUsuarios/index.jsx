@@ -1,29 +1,27 @@
 import React from "react"
 import { useState } from "react"
-import "./Cadastro.css"
+import "./index.css"
 
-
-const Cadastro =props =>{
-   function cadastrouUsuario(e){
+const SalvarUsuarios = ({onAddUser}) =>{
+    function handleSaveUser(e){
         e.preventDefault()
-        console.log('Usuario cadastrado!')
-        console.log(`O nome é ${name}, o numero é ${numero}, os sitomas são ${sintomas} e a hora da consulta ${hora}`)
         const informaces ={
             name, numero, sintomas, hora
         }
+        console.log(informaces)
+        onAddUser(informaces)
 
    }
    const [name, setName] = useState("")
    const [numero, setNumero] = useState("")
    const [sintomas, setSintomas] = useState("")
    const [hora, setHora] = useState("")
-
     return (
-        <>
+        <React.Fragment>
             <section className="CadastroFichas">
                 <h2>Cadastro de Consultas </h2>
                 <div className="formulario">
-                    <form onSubmit={cadastrouUsuario}>
+                    <form onSubmit={handleSaveUser}>
                         Nome:
                         <div>
                             <input
@@ -73,28 +71,7 @@ const Cadastro =props =>{
                     </form>
                 </div>
             </section>
-            <section className="Tabela">
-                <h2>Consultas Marcadas</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Nome</td>
-                            <td>Contato</td>
-                            <td>Sintomas</td>
-                            <td>Hora da consulta</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>luan</td>
-                            <td>83 99999999</td>
-                            <td>Lorem ipsum, dolor  sit amet consectetur adipisicing elit. Recusandae minima beatae voluptatum consectetur quidem perspiciatis unde jdsaldjsdjasldj</td>
-                            <td>11:30</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </>
+        </React.Fragment>
     )
 }
-export default Cadastro
+export default SalvarUsuarios
