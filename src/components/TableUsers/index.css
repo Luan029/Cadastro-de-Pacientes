@@ -8,6 +8,7 @@ table{
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 1333px;
+    min-width: 85vw;
 }
 thead{
     background-color: blue;

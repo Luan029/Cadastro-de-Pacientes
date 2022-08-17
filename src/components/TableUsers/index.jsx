@@ -1,9 +1,9 @@
 import React from "react"
 
-import TableUser from "../tableUser"
+import TableUser from "../TableUser"
 import "./index.css"
 
-const TabelaResultado = ({list}) => {
+const TableUsers = ({list}) => {
     return(
         <section className="Tabela">
                 <h2>Consultas Marcadas</h2>
@@ -26,4 +26,4 @@ const TabelaResultado = ({list}) => {
             </section>
     )
 }
-export default TabelaResultado
+export default TableUsers

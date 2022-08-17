@@ -1,15 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import SalvarUsuarios from './components/salvarUsuarios';
-import TabelaResultado from './components/tabelaUsuarios';
+import SaveUser from './components/SaveUser';
+import TableUsers from './components/TableUsers';
 import { useState } from "react"
 import Cabecalho from './header/Cabecalho';
+import Noticias from './components/news/Noticias';
+import Rodape from './footer/Footer';
 
-import Noticias from './main/Noticias';
-  function App() {
-    const[list, setList] = useState([])
+function App() {
+  const[list, setList] = useState([])
   function handleSaveUser(user){
-    let newList = {...list}
+    let newList = [...list]
     newList.push(user)
     setList(newList)
   }
@@ -17,8 +18,9 @@ import Noticias from './main/Noticias';
     <React.Fragment>
     <Cabecalho/>
     <Noticias/>
-    <SalvarUsuarios onAddUser={handleSaveUser} />
-    <TabelaResultado list={list}/>
+    <SaveUser onAddUser={handleSaveUser} />
+    <TableUsers list={list}/>
+    <Rodape/>
   </React.Fragment>
   );
 }

@@ -2,7 +2,7 @@ import React from "react"
 import { useState } from "react"
 import "./index.css"
 
-const SalvarUsuarios = ({onAddUser}) =>{
+const SaveUser = ({onAddUser}) =>{
     function handleSaveUser(e){
         e.preventDefault()
         const informaces ={
@@ -73,5 +73,5 @@ const SalvarUsuarios = ({onAddUser}) =>{
             </section>
         </React.Fragment>
     )
-}
-export default SalvarUsuarios
+} 
+export default SaveUser

@@ -1,5 +1,5 @@
 header{
-    background-color: aquamarine;
+    
     display: grid;
     height: 200px;
     grid-template-columns: 1fr 1fr;
@@ -55,7 +55,7 @@ header{
     text-decoration: none;
 }
 .menuFlutuante a:hover{
-    background-color: rgba(0, 0, 255, 0.685);
+    background-color: rgb(4, 4, 124);
     color: white;
     padding: 5px;
 }
