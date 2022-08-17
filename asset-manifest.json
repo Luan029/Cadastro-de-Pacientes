@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/Cadastro-de-Pacientes/static/css/main.073c9b0a.css",
-    "main.js": "/Cadastro-de-Pacientes/static/js/main.fc41944d.js",
+    "main.css": "/Cadastro-de-Pacientes/static/css/main.f2d55818.css",
+    "main.js": "/Cadastro-de-Pacientes/static/js/main.5a42b23e.js",
     "static/js/787.11a70b91.chunk.js": "/Cadastro-de-Pacientes/static/js/787.11a70b91.chunk.js",
-    "static/media/logo.svg": "/Cadastro-de-Pacientes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Cadastro-de-Pacientes/index.html",
-    "main.073c9b0a.css.map": "/Cadastro-de-Pacientes/static/css/main.073c9b0a.css.map",
-    "main.fc41944d.js.map": "/Cadastro-de-Pacientes/static/js/main.fc41944d.js.map",
+    "main.f2d55818.css.map": "/Cadastro-de-Pacientes/static/css/main.f2d55818.css.map",
+    "main.5a42b23e.js.map": "/Cadastro-de-Pacientes/static/js/main.5a42b23e.js.map",
     "787.11a70b91.chunk.js.map": "/Cadastro-de-Pacientes/static/js/787.11a70b91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fc41944d.js"
+    "static/css/main.f2d55818.css",
+    "static/js/main.5a42b23e.js"
   ]
 }
