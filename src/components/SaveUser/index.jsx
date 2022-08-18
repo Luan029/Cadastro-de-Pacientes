@@ -18,7 +18,7 @@ const SaveUser = ({onAddUser}) =>{
    const [hora, setHora] = useState("")
     return (
         <React.Fragment>
-            <section className="CadastroFichas">
+            <section className="CadastroFichas" id="fiichass">
                 <h2>Cadastro de Consultas </h2>
                 <div className="formulario">
                     <form onSubmit={handleSaveUser}>

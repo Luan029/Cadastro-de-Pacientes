@@ -15,10 +15,11 @@ section h2{
 }
 form{
     margin-left: 20px;
+    margin-top: 10px;
 }
 .marcar{
     margin-left: 25px;
-    width: 80vw;
+    width: 87vw;
     border-radius: 20px;
     height: 25px;
     margin-top: 5px;
@@ -30,7 +31,7 @@ form{
     border-radius: 5px;
     margin-top: 10px;
     position: relative;
-    left: 65%;
+    left: 83%;
 }
 table{
     border-collapse: collapse;
@@ -47,4 +48,12 @@ thead{
 table td{
     border: 1px solid black;
     padding: 3px;
+}
+@media(max-width: 450px){
+    .enviar{
+        left: 65%;
+    }
+    .marcar{
+        width: 80vw;
+    }
 }

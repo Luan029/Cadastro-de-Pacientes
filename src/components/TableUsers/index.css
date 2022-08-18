@@ -1,14 +1,22 @@
+.Tabela{
+    min-height: 400px;
+    width: 98.7vw;
+    height: auto;
+    padding-bottom: 10px;
+}
 section h2{
     background-color: blue;
     color: white;
     width: 100%;
     text-indent: 15px;
+
 }
 table{
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 1333px;
     min-width: 85vw;
+    margin-top: 10px;
 }
 thead{
     background-color: blue;

@@ -13,7 +13,7 @@ const Rodape = () =>{
                 </div>
                 <div>
                     <h2>Biografia:</h2>
-                    <p>Desenvoldedor Front end e acadêmico no curso Tecnologia da Informação pela Universidade Federal Rural do Semi-Árido - UFERSA</p>
+                    <p>Me apresento como Luan Alves e sou desenvoldedor front end e acadêmico no curso Tecnologia da Informação pela Universidade Federal Rural do Semi-Árido - UFERSA</p>
                 </div>
         </footer>
     )

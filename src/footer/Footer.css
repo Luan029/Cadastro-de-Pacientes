@@ -14,7 +14,7 @@
 #rodape > div{
     background-color: rgb(4, 4, 124);
     display: inline-block;
-    
+    width: 400px;
     padding: 10px;
     
     
@@ -29,4 +29,19 @@
 #rodape a{
     text-decoration: none;
     color: white;
+}
+@media(max-width: 450px){
+
+    #rodape{
+        flex-wrap: wrap-reverse;
+        width: 100vw;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    #rodape > div{
+        margin-bottom: 10px;
+        width: 380px;
+        padding:10px;
+        box-sizing: border-box;
+    }
 }
